@@ -65,7 +65,7 @@ AnalyserView = function(canvas) {
 	// NOTE: the default value of this needs to match the selected radio button
 
 	// This analysis type may be overriden later on if we discover we don't support the right shader features.
-	this.analysisType = ANALYSISTYPE_3D_SPECTROGRAM;
+	this.analysisType = ANALYSISTYPE_3D_SONOGRAM;
 
 	this.sonogram3DWidth = 256;
 	this.sonogram3DHeight = 256;
