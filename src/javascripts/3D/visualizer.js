@@ -15,7 +15,7 @@ limitations under the License.
 *********************************************************/
 
 var Matrix4x4 = require('./matrix4x4');
-var CameraController = require('./cameraController');
+var CameraController = require('./cameracontroller');
 
 var ANALYSISTYPE_FREQUENCY 		= 0;
 var ANALYSISTYPE_SONOGRAM 		= 1;
@@ -70,7 +70,7 @@ AnalyserView = function(canvas) {
 	this.sonogram3DWidth = 256;
 	this.sonogram3DHeight = 256;
 	this.sonogram3DGeometrySize = 9.5;
-	
+
 	this.freqByteData = 0;
 	this.texture = 0;
 	this.TEXTURE_HEIGHT = 256;
