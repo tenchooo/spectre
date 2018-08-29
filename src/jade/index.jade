@@ -20,7 +20,7 @@ html(lang="en" ng-app="ngAppStrict" ng-strict-di="true")
 		meta(name="viewport", content="width=device-width, initial-scale=1")
 		link(rel='stylesheet', href='css/screen.css')
 		link(rel='shortcut icon', href='favicon.ico?v=2')
-		title 3D Spectrogram
+		title Spectre
 	body
 		canvas#spectrogram
 		canvas#legend
@@ -47,32 +47,14 @@ html(lang="en" ng-app="ngAppStrict" ng-strict-di="true")
 			.music-box__buttons__button(data-mic data-name="mic")
 				.icon.icon-mic
 			//- ////////////////////////////////////////////////////////////////////////
-			.music-box__buttons__button(data-draw data-name="draw")
+			.music-box__buttons__button(data-name="Spectrogram_UI_Instrament_BG" data-src="bin/snd/bg.mp3")
 				.icon.icon-draw
-			//- ////////////////////////////////////////////////////////////////////////
-			.music-box__buttons__button(data-name="Spectrogram_UI_Instrament_Flute" data-src="bin/snd/160210_flute_new_cmajor_scale.mp3")
-				.icon.icon-flute
-			//- ////////////////////////////////////////////////////////////////////////
-			.music-box__buttons__button(data-name="Spectrogram_UI_Instrament_Harp" data-src="bin/snd/160211_spectrogram_harp_new.mp3")
-				.icon.icon-harp
-			//- ////////////////////////////////////////////////////////////////////////
-			.music-box__buttons__button(data-name="Spectrogram_UI_Instrament_Whistling" data-src="bin/snd/160113_whistling.mp3")
-				.icon.icon-guy
-			//- ////////////////////////////////////////////////////////////////////////
-			.music-box__buttons__button(data-name="Spectrogram_UI_Instrament_Trombone" data-src="bin/snd/160113_trombone.mp3")
-				.icon.icon-trombone
 			//- ////////////////////////////////////////////////////////////////////////
 			.music-box__buttons__button(data-name="Spectrogram_UI_Instrament_Drum_Machine" data-src="bin/snd/160113_808_loop.mp3")
 				.icon.icon-808
 			//- ////////////////////////////////////////////////////////////////////////
-			.music-box__buttons__button(data-name="Spectrogram_UI_Instrament_Birds" data-src="bin/snd/160113_birds.mp3")
-				.icon.icon-bird
-			//- ////////////////////////////////////////////////////////////////////////
 			.music-box__buttons__button(data-name="Spectrogram_UI_Instrament_Modem" data-src="bin/snd/160113_modem.mp3")
 				.icon.icon-computer
-			//- ////////////////////////////////////////////////////////////////////////
-			.music-box__buttons__button(data-name="Spectrogram_UI_Instrament_Wine_Glass" data-src="bin/snd/160113_wine_glass.mp3")
-				.icon.icon-wine
 		#fileDrop
 			<div class="file-overlay"><div class="file-overlay-description"></div></div>
 
