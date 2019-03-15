@@ -12,7 +12,7 @@
     "gulp-concat": "^2.4.3",
     "gulp-copy": "0.0.2",
     "gulp-iconfont": "^5.0.1",
-    "gulp-iconfont-css": "^2.0.0",
+    "gulp-iconfont-css": "^3.0.0",
     "gulp-imagemin": "^2.2.0",
     "gulp-jade": "^0.11.0",
     "gulp-livereload": "^3.7.0",
